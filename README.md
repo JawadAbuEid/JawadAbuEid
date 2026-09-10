@@ -1,52 +1,61 @@
 # Jawad Abu Eid
 
-**AI & Machine Learning Graduate | Python • TensorFlow • Azure AI | Microsoft AI-900 Certified**
+### AI & Machine Learning Graduate | Python · TensorFlow · Data Science · Azure AI
 
-Recent Bachelor of Information Technology graduate majoring in Artificial Intelligence, focused on building practical AI and machine learning systems. My work includes privacy-focused ML, membership inference attacks, NLP/BERT embeddings, model evaluation, and applied prototyping. I am currently strengthening my Azure AI engineering skills while building a portfolio of production-oriented AI projects.
+Recent Bachelor of Information Technology graduate from Macquarie University, majoring in Artificial Intelligence. I enjoy turning AI and machine-learning ideas into practical, understandable solutions, with experience across privacy-focused ML, NLP/BERT, model evaluation, synthetic-data prototyping and AI workflow exploration.
 
-## About Me
-
-- Bachelor of Information Technology — Artificial Intelligence major
-- Microsoft Certified: Azure AI Fundamentals (AI-900)
-- Currently preparing for Azure AI Engineer Associate (AI-102)
-- Experience with machine learning, data science, big data, NLP, and model evaluation
-- Based in Sydney, Australia
-
-## Technical Skills
-
-**Languages & Data:** Python, SQL, pandas, NumPy  
-**Machine Learning:** TensorFlow/Keras, scikit-learn, classification, model evaluation, feature engineering  
-**AI & NLP:** BERT embeddings, Siamese networks, privacy risk assessment, membership inference attacks  
-**Cloud:** Microsoft Azure AI  
-**Tools:** Git, GitHub, Jupyter Notebook
+**Microsoft Certified: Azure AI Fundamentals (AI-900)** · Currently studying for **AI-102** · Sydney, Australia
 
 ## Featured Projects
 
-### Privacy Risk Assessment for Record Linkage Models
-Capstone project evaluating whether a record-linkage model leaked training-membership information through **Membership Inference Attacks (MIA)**.
+### 🔐 Privacy Risk Assessment for Record Linkage Models
+**PACE Capstone · Six-person team · Machine Learning / Privacy / NLP**
 
-- Built and evaluated a Siamese-style record linkage pipeline using BERT embeddings
-- Trained shadow models and attack classifiers to measure privacy leakage
-- Evaluated target and attack performance using ROC-AUC, accuracy, F1, and confusion matrices
-- Target model achieved **0.89 ROC-AUC**, while attack ROC-AUC remained near random guessing at **0.50**
+**Context:** Investigated whether a machine-learning record-linkage model could leak information about which records were used during training.
 
-[View project](https://github.com/JawadAbuEid/privacy-risk-ml-capstone)
+**My contribution:** Focused on ML and evaluation work, collaborating on the core notebook pipeline, model training/validation, experiment review and Membership Inference Attack evaluation.
 
-### StealthChat — Scam-Baiting Bot Behaviour Prototype
-Hackathon prototype exploring human-like response behaviours for defensive scam-engagement research using fully synthetic data.
+**Result:** The target model achieved **0.89 ROC-AUC, 87.3% accuracy and 0.87 F1**. Under the tested configuration, the attack classifiers achieved approximately **0.50 ROC-AUC**, close to random guessing.
 
-- Designed reusable response tactics and trust-signal features
-- Built a synthetic dialogue dataset across multiple scam scenarios
-- Developed a Python prototype for reply selection and behavioural simulation
-- Produced visual analysis of tactic effectiveness and believability
+**Tech:** Python · TensorFlow/Keras · scikit-learn · BERT embeddings · Siamese representation learning · Membership Inference Attacks
 
-[View project](https://github.com/JawadAbuEid/stealthchat-scam-bot-hackathon)
+[Explore the full project →](https://github.com/JawadAbuEid/privacy-risk-ml-capstone)
 
-## Currently Building
+---
 
-I am continuing to expand this portfolio with applied AI engineering projects involving LLM applications, data pipelines, APIs, deployment, and Azure AI services.
+### 🛡️ StealthChat — Defensive Scam-Engagement Behaviour Prototype
+**Solo Hackathon Project · Defensive AI / Python**
 
-## Contact
+**Context:** Explored how a defensive scam-engagement prototype could produce more varied and natural synthetic responses without sacrificing safety or explainability.
+
+**What I built:** A reusable Python behaviour engine with five response tactics, seeded variation, simulated delay metadata, trust-signal inference, an explainable heuristic suspicion-risk score, synthetic multi-turn evaluation and tests.
+
+**Result:** Turned the original hackathon concept into a reusable, reproducible Python prototype while keeping all scenarios synthetic and defensive-use only.
+
+**Tech:** Python · synthetic data · heuristic modelling · testing · Responsible AI
+
+[Explore the full project →](https://github.com/JawadAbuEid/stealthchat-scam-bot-hackathon)
+
+## Technical Skills
+
+**Programming & Data:** Python · SQL · pandas · NumPy  
+**Machine Learning:** TensorFlow/Keras · scikit-learn · classification · feature engineering · model evaluation · ROC-AUC · F1  
+**AI & NLP:** BERT embeddings · Siamese networks · membership inference attacks · synthetic-data prototyping · prompt engineering  
+**Data & Systems:** MongoDB · MapReduce · Git · GitHub · Jupyter Notebook  
+**Cloud:** Microsoft Azure AI
+
+## What I'm Working On
+
+I am continuing to develop my AI engineering skills through **AI-102 study** and new practical projects. My next portfolio work is focused on solving real business problems while strengthening areas such as AI applications, data workflows, APIs and Azure deployment as they are implemented.
+
+## Education & Certification
+
+**Bachelor of Information Technology — Artificial Intelligence Major**  
+Macquarie University
+
+**Microsoft Certified: Azure AI Fundamentals (AI-900)**
+
+## Connect
 
 **Email:** jawadabueid2005@gmail.com  
-**LinkedIn:** https://linkedin.com/in/jawad-abueid-671226294
+**LinkedIn:** [linkedin.com/in/jawad-abueid-671226294](https://linkedin.com/in/jawad-abueid-671226294)
